@@ -1,0 +1,16 @@
+# Arduino build artifacts
+*.o
+*.a
+*.d
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
+*.lst
+
+# PlatformIO
+.pio/
+
+# VS Code
+.vscode/
