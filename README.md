@@ -1,6 +1,6 @@
 # Sensor de Aparcamiento
 
-1. Introducción
+
 Este proyecto consiste en el diseño y la implementación de un sensor de aparcamiento utilizando una placa de Arduino. El sistema mide la distancia entre el vehículo y un obstáculo mediante un sensor de ultrasonidos, y da al conductor avisos visuales y sonoros en tiempo real en función de la distancia. A medida que la distancia disminuye, se encienden de manera progresiva tres LEDs de colores (verde, amarillo y rojo) y emite pitidos cada vez mas rápidos a través de un buzzer, imitando el comportamiento de los sensores de aparcamiento que podemos encontrar en los vehículos. Adicionalmente, la distancia medida se muestra en una pantalla LCD que se actualiza en tiempo real. El contraste de la pantalla se realiza mediante un potenciómetro, dando versatilidad al sistema para diferentes condiciones lumínicas.
 
 ## Archivos
