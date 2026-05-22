@@ -49,7 +49,7 @@ void loop()
   lcd.print(distancia);
   lcd.print(" cm ");
   
-  if(distancia >= 70){
+  if(distancia >= 40){
     digitalWrite(rojo, LOW);
     digitalWrite(amarillo, LOW);
     digitalWrite(verde, HIGH);
@@ -57,12 +57,7 @@ void loop()
     noTone(buzzer);
     delay(100);
     
-  }else if(distancia >15 && distancia <70){
-  	digitalWrite(rojo, LOW);
-    digitalWrite(amarillo, HIGH);
-    digitalWrite(verde, LOW);
-    
-    tone(buzzer, 1000);
+  }else if(distancia >5 && distancia <40){
     delay(50);
     noTone(buzzer);
     delay(distancia * 10);
